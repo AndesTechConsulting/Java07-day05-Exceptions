@@ -11,10 +11,12 @@ public class App
         try {
 
             ua1.withdrawl(-10);
+            //...
         }
         catch (TransactionalException ex)
         {
             System.out.println(ex);
+            //..
         }
 
         System.out.println("You have: " + ua1.getAccountMoney());
