@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="homeWork02" />
         <module name="Java07Day05" />
+        <module name="Java07Day05FuncsGenericsCollections" />
       </profile>
     </annotationProcessing>
   </component>
